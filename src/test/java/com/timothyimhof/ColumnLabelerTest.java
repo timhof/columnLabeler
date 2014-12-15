@@ -28,7 +28,6 @@ public class ColumnLabelerTest {
 		assertEquals(1, labeler.getColumn("A"));
 		assertEquals(26, labeler.getColumn("Z"));
 		assertEquals(27, labeler.getColumn("AA"));
-		assertEquals(27, labeler.getColumn("AZ"));
 		
 		assertEquals("A", labeler.getColumnName(1));
 		assertEquals("B", labeler.getColumnName(2));
